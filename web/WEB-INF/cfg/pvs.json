@@ -1,0 +1,260 @@
+{
+  "data": [
+    {
+      "name": "R1M1GSET",
+      "value": 16.3
+    },
+    {
+      "name": "R1M2GSET",
+      "value": 10.8
+    },
+    {
+      "name": "R1M3GSET",
+      "value": 19.8
+    },
+    {
+      "name": "R1M4GSET",
+      "value": 17.3
+    },
+    {
+      "name": "R1M5GSET",
+      "value": 18.0
+    },
+    {
+      "name": "R1M6GSET",
+      "value": 19.3
+    },
+    {
+      "name": "R1M7GSET",
+      "value": 12.5
+    },
+    {
+      "name": "R1M8GSET",
+      "value": 11.2
+    },
+    {
+      "name": "R1N1GSET",
+      "value": 14.0
+    },
+    {
+      "name": "R1N2GSET",
+      "value": 10.5
+    },
+    {
+      "name": "R1N3GSET",
+      "value": 11.0
+    },
+    {
+      "name": "R1N4GSET",
+      "value": 11.8
+    },
+    {
+      "name": "R1N5GSET",
+      "value": 18.0
+    },
+    {
+      "name": "R1N6GSET",
+      "value": 13.7
+    },
+    {
+      "name": "R1N7GSET",
+      "value": 18.0
+    },
+    {
+      "name": "R1N8GSET",
+      "value": 10.0
+    },
+    {
+      "name": "R1O1GSET",
+      "value": 12.0
+    },
+    {
+      "name": "R1O2GSET",
+      "value": 13.2
+    },
+    {
+      "name": "R1O3GSET",
+      "value": 15.0
+    },
+    {
+      "name": "R1O4GSET",
+      "value": 18.1
+    },
+    {
+      "name": "R1O5GSET",
+      "value": 14.0
+    },
+    {
+      "name": "R1O6GSET",
+      "value": 13.6
+    },
+    {
+      "name": "R1O7GSET",
+      "value": 13.0
+    },
+    {
+      "name": "R1O8GSET",
+      "value": 13.3
+    },
+    {
+      "name": "R1P1GSET",
+      "value": 18.3
+    },
+    {
+      "name": "R1P2GSET",
+      "value": 18.0
+    },
+    {
+      "name": "R1P3GSET",
+      "value": 20.0
+    },
+    {
+      "name": "R1P4GSET",
+      "value": 20.0
+    },
+    {
+      "name": "R1P5GSET",
+      "value": 20.0
+    },
+    {
+      "name": "R1P6GSET",
+      "value": 20.0
+    },
+    {
+      "name": "R1P7GSET",
+      "value": 20.5
+    },
+    {
+      "name": "R1P8GSET",
+      "value": 16.6
+    },
+    {
+      "name": "R1M1ODVH",
+      "value": 16.3
+    },
+    {
+      "name": "R1M2ODVH",
+      "value": 10.8
+    },
+    {
+      "name": "R1M3ODVH",
+      "value": 19.8
+    },
+    {
+      "name": "R1M4ODVH",
+      "value": 17.3
+    },
+    {
+      "name": "R1M5ODVH",
+      "value": 18.0
+    },
+    {
+      "name": "R1M6ODVH",
+      "value": 19.3
+    },
+    {
+      "name": "R1M7ODVH",
+      "value": 12.5
+    },
+    {
+      "name": "R1M8ODVH",
+      "value": 11.2
+    },
+    {
+      "name": "R1N1ODVH",
+      "value": 14.0
+    },
+    {
+      "name": "R1N2ODVH",
+      "value": 10.5
+    },
+    {
+      "name": "R1N3ODVH",
+      "value": 11.0
+    },
+    {
+      "name": "R1N4ODVH",
+      "value": 11.8
+    },
+    {
+      "name": "R1N5ODVH",
+      "value": 18.0
+    },
+    {
+      "name": "R1N6ODVH",
+      "value": 13.7
+    },
+    {
+      "name": "R1N7ODVH",
+      "value": 18.0
+    },
+    {
+      "name": "R1N8ODVH",
+      "value": 10.0
+    },
+    {
+      "name": "R1O1ODVH",
+      "value": 12.0
+    },
+    {
+      "name": "R1O2ODVH",
+      "value": 13.2
+    },
+    {
+      "name": "R1O3ODVH",
+      "value": 15.0
+    },
+    {
+      "name": "R1O4ODVH",
+      "value": 18.1
+    },
+    {
+      "name": "R1O5ODVH",
+      "value": 14.0
+    },
+    {
+      "name": "R1O6ODVH",
+      "value": 13.6
+    },
+    {
+      "name": "R1O7ODVH",
+      "value": 13.0
+    },
+    {
+      "name": "R1O8ODVH",
+      "value": 13.3
+    },
+    {
+      "name": "R1P1ODVH",
+      "value": 18.3
+    },
+    {
+      "name": "R1P2ODVH",
+      "value": 18.0
+    },
+    {
+      "name": "R1P3ODVH",
+      "value": 20.0
+    },
+    {
+      "name": "R1P4ODVH",
+      "value": 20.0
+    },
+    {
+      "name": "R1P5ODVH",
+      "value": 20.0
+    },
+    {
+      "name": "R1P6ODVH",
+      "value": 20.0
+    },
+    {
+      "name": "R1P7ODVH",
+      "value": 20.5
+    },
+    {
+      "name": "R1P8ODVH",
+      "value": 16.6
+    }
+  ]
+}

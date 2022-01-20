@@ -1,0 +1,79 @@
+.input-cell {
+    width: 10em;
+}
+
+.ndx-panel {
+    width: 100px;
+    height: 200px;
+    display: inline-block;
+}
+
+.cm-gradient-panel {
+    /*width: 200px;*/
+    /*height: 100px;*/
+    display: inline-block;
+}
+
+.gradient-input-row input {
+    background-color: cornsilk;
+    width: 5em;
+}
+
+.fe-onset-input-row input {
+    background-color: #f2e4d3;
+    width: 5em;
+}
+
+.gradient-input-label {
+    display: inline-block;
+    width: 10em;
+    text-align: left;
+    margin-right: 5px;
+}
+
+.fe-onset-input-label {
+    display: inline-block;
+    width: 10em;
+    text-align: left;
+    margin-right: 5px;
+}
+
+.zone-input {
+    margin-bottom: 3px;
+}
+
+.chart-panel {
+    display: inline-block;
+}
+
+.zone-panel {
+    border-style: solid;
+    border-width: 1px;
+    display: inline-block;
+}
+
+.zone-panel-title {
+    text-align: center;
+}
+
+#results-panel > table {
+    min-width: 30em;
+    border-style: solid;
+    border-width: 1px;
+    margin: 2px;
+    text-align: right;
+}
+
+
+.error-message-box {
+    height: 100px;
+    overflow-y: scroll;
+}
+
+.modified-val {
+    font-weight: bold;
+}
+
+.over-odvh {
+    color: red;
+}
