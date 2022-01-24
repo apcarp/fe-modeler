@@ -1,3 +1,9 @@
 .idea/
 fe-modeler.iml
 dockerWarVolume/
+# Ignore Gradle project-specific cache directory
+.gradle
+
+# Ignore Gradle build output directory
+build
+out/
