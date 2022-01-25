@@ -6,9 +6,9 @@ import java.io.IOException;
 
 /**
  *
- * @author ryans
+ * @author adamc
  */
-@WebFilter(filterName = "CharacterEncodingFilter", urlPatterns = {"/*"}, dispatcherTypes = {DispatcherType.REQUEST})
+@WebFilter(filterName = "CharacterEncodingFilter", urlPatterns = {"/*"})
 public class CharacterEncodingFilter implements Filter {
 
     @Override
@@ -21,7 +21,7 @@ public class CharacterEncodingFilter implements Filter {
     }
 
     @Override
-    public void init(FilterConfig filterConfig) throws ServletException {
+    public void init(FilterConfig filterConfig) {
     }
 
     @Override

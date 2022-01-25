@@ -62,7 +62,7 @@ public class CAGetAjax extends HttpServlet {
 
     }
 
-    private String getParamsString(Map<String, String[]> params) throws UnsupportedEncodingException {
+    private String getParamsString(Map<String, String[]> params) {
         StringBuilder results = new StringBuilder();
 
         for (Map.Entry<String, String[]> entry : params.entrySet()) {
