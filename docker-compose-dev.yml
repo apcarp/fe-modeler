@@ -1,0 +1,19 @@
+---
+version: '3.8'
+
+services:
+  fnm:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 8080:8080
+      - 8443:8443
+      - 9990:9990
+    volumes:
+      - ./dockerWarVolume:/opt/jboss/wildfly/standalone/deployments
+  http:
+    image: centos/httpd-24-centos7
+    ports:
+      - 80:80
+      - 443:443
