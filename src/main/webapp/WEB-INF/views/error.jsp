@@ -3,10 +3,9 @@
 <%@taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 <!DOCTYPE html>
 <html>
-<head title="Error"></head>
+<head><title>FNM - Error</title></head>
 <body>
 <h2><c:out value="${requestScope.title}"/></h2>
-<%--<h2>${requestScope.title}</h2>--%>
 <div class="message-box error-message"><c:out value="${requestScope.message}"/></div>
 </body>
 </html>

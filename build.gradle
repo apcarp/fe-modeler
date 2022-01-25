@@ -26,7 +26,8 @@ dependencies {
 
     // This dependency is used by the application.
     implementation 'org.tuckey:urlrewritefilter:4.0.4'
-    providedCompile 'javax:javaee-api:8.0'
+    providedCompile 'javax:javaee-api:8.0.1'
+    providedCompile 'javax.servlet:jstl:1.2'
 }
 
 
@@ -35,7 +36,7 @@ war {
     archiveName 'fe-modeler.war'
     filesMatching('WEB-INF/web.xml') {
         filter {
-            String line -> line.replaceAll('@VERSION@', project.version)
+            String line -> line.replaceAll('@VERSION@', project.version as String)
         }
     }
 }
