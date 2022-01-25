@@ -11,7 +11,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>ONNX Runtime JavaScript examples: Quick Start - Web (using script tag)</title>
+    <title>FE Modeler - NL C100s</title>
     <link rel="stylesheet"
           href="${pageContext.request.contextPath}/resources/v${initParam.resourceVersionNumber}/css/main.css">
 </head>

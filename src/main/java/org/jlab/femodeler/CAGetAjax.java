@@ -1,6 +1,7 @@
 package org.jlab.femodeler;
 
 import javax.net.ssl.HttpsURLConnection;
+import java.net.HttpURLConnection;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -26,14 +27,21 @@ public class CAGetAjax extends HttpServlet {
         }
 
         String e2wResponse;
-        HttpsURLConnection con = null;
+        HttpURLConnection con = null;
         try {
             String urlString = prop.getProperty("epics2web.url");
             if (!request.getParameterMap().entrySet().isEmpty()) {
                 urlString += "?" + getParamsString(request.getParameterMap());
             }
             URL url = new URL(urlString);
-            con = (HttpsURLConnection) url.openConnection();
+            if ("https".equals(url.getProtocol())) {
+                con = (HttpsURLConnection) url.openConnection();
+            } else if ("http".equals(url.getProtocol())) {
+                con = (HttpURLConnection) url.openConnection();
+            } else {
+                throw new ServletException("Unsupported protocol: " + url.getProtocol());
+            }
+
             con.setDoOutput(false);
             con.setRequestMethod("GET");
             con.setRequestProperty("Accept-Charset", "UTF-8");
